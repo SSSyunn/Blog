@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 瞬のブログ
 subtitle: 'Enjoy the Tech'
 description: ''
 keywords:
@@ -104,4 +104,4 @@ theme: landscape
 deploy:
   type: 'git'
   repo: https://github.com/SSSyunn/Blog
-  branch: github-pages
+  branch: gh-pages
