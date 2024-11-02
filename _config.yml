@@ -8,7 +8,7 @@ subtitle: 'Enjoy the Tech'
 description: ''
 keywords:
 author: Syunn
-language: zh
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +105,7 @@ deploy:
   type: 'git'
   repo: https://github.com/SSSyunn/Blog
   branch: gh-pages
+
+markdown:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'
