@@ -18,10 +18,12 @@ nav:
 
 menu:
   首页: / || fas fa-home
+
   文章||fa-solid fa-file:
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
     时间轴: /archives/ || fa-solid fa-timeline
+
   友链: /link/ || fas fa-link
 
 # --------------------------------------
@@ -202,6 +204,7 @@ cover:
     - /config/img/cover/material-97.webp
     - /config/img/cover/material-98.webp
     - /config/img/cover/material-99.webp
+    - /config/img/cover/material-100.webp
 
 # Replace Broken Images
 error_img:
@@ -620,7 +623,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use:
+  use: Gitalk
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -653,11 +656,11 @@ livere:
 # Gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
+  client_id: Ov23lijpkllLeLgtN6b2
+  client_secret: 070cd7f0b72b457dc31936c7a4dd573a34bb9986
+  repo: https://github.com/SSSyunn/Blog
+  owner: SSSyunn
+  admin: Thirup2
   option:
 
 # Valine
@@ -1133,6 +1136,8 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+    - <script src="/config/scripts/jquery.min.js"></script>
+    - <script src="/config/scripts/fishes.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN Settings
