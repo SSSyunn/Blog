@@ -658,7 +658,7 @@ livere:
 gitalk:
   client_id: Ov23lijpkllLeLgtN6b2
   client_secret: 070cd7f0b72b457dc31936c7a4dd573a34bb9986
-  repo: https://github.com/SSSyunn/Blog
+  repo: Blog
   owner: SSSyunn
   admin: SSSyunn,Thirup2
   option:
