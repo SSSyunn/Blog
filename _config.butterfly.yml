@@ -660,7 +660,7 @@ gitalk:
   client_secret: 070cd7f0b72b457dc31936c7a4dd573a34bb9986
   repo: https://github.com/SSSyunn/Blog
   owner: SSSyunn
-  admin: Thirup2
+  admin: SSSyunn,Thirup2
   option:
 
 # Valine
